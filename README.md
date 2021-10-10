@@ -1,5 +1,7 @@
 # ReactJS boilerplate
 
+![Build status](https://github.com/nlgtEA/react-ts-boilerplate/actions/workflows/test-and-build.yml/badge.svg)
+
 An React boilerplate with:
 
 - [x] TypeScript
