@@ -7,5 +7,6 @@ An React boilerplate with:
 - [x] Tailwind css
 - [x] Husky
 - [x] Lint staged
+- [x] CI with Github workflows
 - [ ] Redux
 - [ ] React Query
