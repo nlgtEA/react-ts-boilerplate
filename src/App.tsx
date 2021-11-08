@@ -1,7 +1,14 @@
 import React from 'react';
 
+import AppProvider from '@/providers/AppProvider';
+import AppRoutes from '@/routes';
+
 function App() {
-  return <div className="flex justify-center items-center h-screen">This is a React App</div>;
+  return (
+    <AppProvider>
+      <AppRoutes />
+    </AppProvider>
+  );
 }
 
 export default App;

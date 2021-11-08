@@ -5,6 +5,12 @@
     "project": "./tsconfig.json"
   },
   "rules": {
-    "prettier/prettier": ["error"]
+    "prettier/prettier": ["error"],
+    "import/extensions": ["error", "never", { "svg": "always" }],
+    "react/require-default-props": "off",
+    "react/jsx-props-no-spreading": "off"
+  },
+  "settings": {
+    "import/extensions": [".js", ".mjs", ".jsx", ".ts", ".tsx"]
   }
 }

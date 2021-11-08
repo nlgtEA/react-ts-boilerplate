@@ -1,9 +1,7 @@
 import React from 'react';
-import { render, screen } from '@testing-library/react';
+import { rtlRender } from '@/tests/test-utils';
 import App from './App';
 
 it('renders without crashing', () => {
-  render(<App />);
-
-  expect(screen.getByText(/This is a react app/i)).toBeInTheDocument();
+  rtlRender(<App />);
 });
